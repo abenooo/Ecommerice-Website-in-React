@@ -1,6 +1,12 @@
 import React from "react";
 import logo from "../../components/assets/images/logo.svg";
 const Search = () => {
+ 
+    window.addEventListener("scroll", function(){
+      const search = this.document.querySelector(".search")
+      search.classList.toggle("active", this.window.scrollY > 100)
+    })
+  
   return (
     <>
       <section className="search">
