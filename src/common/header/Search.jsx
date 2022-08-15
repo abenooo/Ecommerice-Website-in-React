@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import logo from "../../components/assets/images/logo.svg"
 
 
@@ -26,10 +27,10 @@ const Search = ({ CartItem }) => {
           <div className='icon f_flex width'>
             <i className='fa fa-user icon-circle'></i>
             <div className='cart'>
-              <a href="/cart">
+              <Link to='/cart'>
                 <i className='fa fa-shopping-bag icon-circle'></i>
                 <span>0</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
