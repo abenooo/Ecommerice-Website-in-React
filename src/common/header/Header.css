@@ -185,7 +185,7 @@ li {
         left: 0;
         top: 0;
         transition: 0.5s;
-        width: 100%;
+        width: 60%;
         height: 100vh;
         background-color: #fff;
         z-index: 888;
@@ -209,6 +209,10 @@ li {
         display: block;
         font-size: 25px;
         z-index: 999;
+    }
+    .open {
+        top: 18%;
+        right: 30px;
     }
     .close {
         right: 45%;
