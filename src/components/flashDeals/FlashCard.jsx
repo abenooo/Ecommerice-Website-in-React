@@ -5,7 +5,7 @@ import Slider from "react-slick";
 const NextArrow = (props) => {
   const { onClick } = props;
   return (
-    <div onClick={onClick}>
+    <div className='control-btn' onClick={onClick}>
       <button className="next">
         <i className="fa fa-long-arrow-alt-right"></i>
       </button>
@@ -15,7 +15,7 @@ const NextArrow = (props) => {
 const PrevArrow = (props) => {
     const { onClick } = props;
     return (
-      <div onClick={onClick}>
+      <div className='control-btn' onClick={onClick}>
         <button className="prev">
           <i className="fa fa-long-arrow-alt-left"></i>
         </button>
