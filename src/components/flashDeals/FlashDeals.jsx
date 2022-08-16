@@ -4,6 +4,7 @@ import "./style.css"
 const FlashDeals = ({ productItems }) => {
   return (
     <>
+  
       <section className='flash'>
         <div className='container'>
           <div className='heading f_flex'>
