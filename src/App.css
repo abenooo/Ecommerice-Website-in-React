@@ -172,3 +172,10 @@ body {
     transition: 0.5s;
     color: #fff;
 }
+
+.control-btn .next :hover,
+.control-btn .prev :hover {
+    background: #e94560;
+    color: #fff;
+    cursor: pointer;
+}
